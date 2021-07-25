@@ -1,0 +1,39 @@
+.container { 
+  width: min(40vh, 80vw);
+  height: min(120vw, 60vh);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin-top: auto;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 3.4rem;
+  margin-top: 0.5em;
+  color: #0A071BEE;
+  font-weight: 700;
+}
+
+.title img {
+  opacity: 0.9;
+}
+
+.logo {
+  margin-top: auto;
+}
+
+.form {
+  width: 60%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.footer {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}

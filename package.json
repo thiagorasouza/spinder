@@ -1,0 +1,29 @@
+{
+  "name": "spinder",
+  "version": "1.0.0",
+  "description": "Spotify meets Tinder",
+  "main": "app.js",
+  "directories": {
+    "example": "example"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagorasouza/spinder.git"
+  },
+  "author": "Thiago Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagorasouza/spinder/issues"
+  },
+  "homepage": "https://github.com/thiagorasouza/spinder#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "qs": "^6.10.1"
+  }
+}

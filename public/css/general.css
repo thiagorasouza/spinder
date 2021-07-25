@@ -1,0 +1,47 @@
+/* @import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+*, h1 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #d9dafc;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font: 1.6rem 'Lato', sans-serif;
+  color:#0A071BEE;
+}
+
+.container {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}
+
+.btn:link, .btn:visited {
+  display: block;
+  text-align: center;
+  padding: 0.75em 1.5em 0.85em;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #FFFF;
+  background-color: #5037EA;
+}
+
+.btn:hover {
+  color: #FFFFFF;
+  background-color: #3521B5;
+  transform: scale(1.01) translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
